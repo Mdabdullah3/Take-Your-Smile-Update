@@ -1,0 +1,164 @@
+/* .background {
+    background-image: url(http://takeheartevents.com/wp-content/uploads/2019/06/TH-corporate-header.jpg);
+    background-size: cover;
+    background-position: center;
+     height: 50vh; 
+} */
+
+.background-img-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.092)), url(../../Images/CorporateBigBanner.jpg);
+    height: 55vh;
+
+    /* color:transparent; */
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.background-img-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.599), rgba(0, 0, 0, 0.481)), url(../../Images/event-management-bangladesh.jpeg);
+    height: 55vh;
+
+    /* color:transparent; */
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.background-img-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.092)), url(../../Images/SocialBigBanner.jpg);
+    height: 55vh;
+
+    /* color:transparent; */
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.background-img-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.496), rgba(0, 0, 0, 0.616)), url(../../Images//wed.jpeg);
+    height: 55vh;
+
+    /* color:transparent; */
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+
+.change {
+    padding: 10px 22px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.change:hover {
+
+    border: 2px solid #FF014F;
+    background-color: #FF014F;
+    font-weight: 600;
+}
+
+/* .parent {
+   position: relative;
+}
+.child {
+   position: absolute;
+   bottom: 25%;
+} */
+
+
+/* --------
+Social
+---------- */
+.banner-social {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.092)), url(../../Images/social-banner.jpg);
+    background-position: center;
+
+    background-size: cover;
+}
+
+.banner-weeding {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.496), rgba(0, 0, 0, 0.616)), url(../../Images//WeedingBigBanner.jpg);
+    ;
+    background-position: center;
+
+    background-size: cover;
+}
+
+.banner-corporate {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.092)), url(../../Images/CorporateBigBanner.jpg);
+    background-position: center;
+
+    background-size: cover;
+}
+
+.banner-nonprofit {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.092)), url(../../Images/nonprofit-banner.jpg);
+    background-position: center;
+
+    background-size: cover;
+}
+
+
+.contact-button {
+    background-color: #FF014F;
+    padding: 12px 30px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.send-button {
+    background-color: #FF014F;
+    padding: 12px 20px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+
+.chat-icon {
+    transform: translateX(-10px);
+    visibility: hidden;
+}
+
+.contact {
+    transform: translateX(20px);
+}
+
+
+.contact-button:hover .chat-icon {
+    visibility: initial;
+    transform: translateX(1px);
+    transition: all linear 0.2s;
+}
+
+.contact-button:hover .contact {
+
+    transform: translateX(-1px);
+    transition: all linear 0.2s;
+}
+
+.contact-button:hover {
+
+    background-color: #ff014dce;
+}
+
+.send-button:hover {
+
+    background-color: #ff014dce;
+}
