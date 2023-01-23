@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 
 const Modal = ({ data, close }) => {
   const handleDelete =( id: any ) =>{
-    const url =`https://take-your-smile-server-side.vercel.app/admin/booking/${id}`;
+    const url =`https://take-your-smile.onrender.com/admin/booking/${id}`;
         fetch(url, {
             method: 'DELETE',
             headers: {
@@ -25,7 +25,7 @@ const Modal = ({ data, close }) => {
     console.log(id);
   }
   const handleComplete =(id : any)=>{
-    fetch(`https://take-your-smile-server-side.vercel.app/orders/complete/${id}`, {
+    fetch(`https://take-your-smile.onrender.com/orders/complete/${id}`, {
       method: "PUT",
   })
       .then((res) => res.json())

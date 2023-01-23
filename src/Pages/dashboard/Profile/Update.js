@@ -43,7 +43,7 @@ const Update = () => {
           };
           //send fata on database
           fetch(
-            `https://take-your-smile-server-side.vercel.app/user/${email}`,
+            `https://take-your-smile.onrender.com/user/${email}`,
             {
               method: "PUT",
               headers: {

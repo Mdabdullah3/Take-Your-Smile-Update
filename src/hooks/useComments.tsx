@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const useComments = () => {
 
-    const url = `https://take-your-smile-server-side.vercel.app/postComments`
+    const url = `https://take-your-smile.onrender.com/postComments`
 
     const [comments, setComments] = useState([])
 

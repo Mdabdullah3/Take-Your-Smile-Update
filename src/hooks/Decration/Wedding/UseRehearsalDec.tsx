@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const UseRehearsalDec = (reh: any) => {
   const [reharsal, setReharsal] = useState([reh]);
   useEffect(() => {
-    const url = `https://take-your-smile-server-side.vercel.app/weddingceremony/${reh}`;
+    const url = `https://take-your-smile.onrender.com/weddingceremony/${reh}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setReharsal(data));

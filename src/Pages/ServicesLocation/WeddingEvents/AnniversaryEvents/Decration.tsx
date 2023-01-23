@@ -20,7 +20,7 @@ const Decration = () => {
   console.log(packag);
   const [address]: any = UseLocation(id);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/anniversary";
+    const url = "https://take-your-smile.onrender.com/anniversary";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

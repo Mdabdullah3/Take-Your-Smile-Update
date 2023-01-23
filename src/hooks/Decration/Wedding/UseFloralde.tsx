@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const UseFloralde = (flow: any) => {
   const [floralDesign, setFloralDesign] = useState([]);
   useEffect(() => {
-    const url = `https://take-your-smile-server-side.vercel.app/floralDesign/${flow}`;
+    const url = `https://take-your-smile.onrender.com/floralDesign/${flow}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setFloralDesign(data));

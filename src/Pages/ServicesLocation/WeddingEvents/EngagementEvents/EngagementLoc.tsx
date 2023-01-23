@@ -13,7 +13,7 @@ const EngagementLoc = () => {
   const navigate = useNavigate();
   const [packag]: any = UsePackage(pack);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/address";
+    const url = "https://take-your-smile.onrender.com/address";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setAddress(data));

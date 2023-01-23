@@ -15,7 +15,7 @@ export default function BlogPost() {
       body: body,
       image: image
     }
-    fetch('https://take-your-smile-server-side.vercel.app/articles', {
+    fetch('https://take-your-smile.onrender.com/articles', {
       method: "POST",
       headers: {
         'content-type': 'application/json'

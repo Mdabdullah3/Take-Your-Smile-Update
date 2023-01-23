@@ -20,7 +20,7 @@ const NewYearDe = () => {
   const [packag]: any = UsePackage(pack);
   console.log(packag);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/NewYearEvents";
+    const url = "https://take-your-smile.onrender.com/NewYearEvents";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

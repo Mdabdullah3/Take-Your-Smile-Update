@@ -5,7 +5,7 @@ const TeamA = () => {
     const [teamA, setTeamA] = useState([])
     const [team, setTeam]: any = useState([]);
     useEffect(() => {
-        const url = 'https://take-your-smile-server-side.vercel.app/teams';
+        const url = 'https://take-your-smile.onrender.com/teams';
         fetch(url)
             .then(res => res.json())
             .then(data => {

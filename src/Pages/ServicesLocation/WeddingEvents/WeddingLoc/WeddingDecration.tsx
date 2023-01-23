@@ -19,7 +19,7 @@ const WeddingDecration = () => {
   const { id } = useParams();
   const [address]: any = UseLocation(id);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/weddingceremony";
+    const url = "https://take-your-smile.onrender.com/weddingceremony";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

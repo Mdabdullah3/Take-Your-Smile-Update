@@ -7,7 +7,7 @@ const useUser = user => {
         
         const email = user?.email;
         if (email) {
-            fetch(`https://take-your-smile-server-side.vercel.app/user/${email}`,{
+            fetch(`https://take-your-smile.onrender.com/user/${email}`,{
                 methodd: "GET",
                 headers: {
                     'content-type': 'application/json',

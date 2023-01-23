@@ -10,7 +10,7 @@ export default class RecentEvents extends Component {
   };
 
   componentDidMount() {
-    fetch("https://take-your-smile-server-side.vercel.app/recentEvents")
+    fetch("https://take-your-smile.onrender.com/recentEvents")
       .then((response) => response.json())
       .then((booksList) => {
         this.setState({ books: booksList });

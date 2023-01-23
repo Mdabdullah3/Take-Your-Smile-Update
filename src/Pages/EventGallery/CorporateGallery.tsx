@@ -13,7 +13,7 @@ const CorporateGallery = () => {
     const [gallery, setGallery] = useState([]);
     const [events, setEvents] = useState([]);
     useEffect(() => {
-      fetch("https://take-your-smile-server-side.vercel.app/gallerys")
+      fetch("https://take-your-smile.onrender.com/gallerys")
         .then((res) => res.json())
         .then((data) => {
           setGallery(data);

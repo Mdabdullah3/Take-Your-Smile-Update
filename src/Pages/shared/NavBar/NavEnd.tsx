@@ -14,7 +14,7 @@ const NavEnd = () => {
   const [users, userLoading]:any  =  useUser(user);
   const email = user?.email;
   const { isLoading, error, data, refetch } = useQuery(['data'], () =>
-  fetch(`https://take-your-smile-server-side.vercel.app/user/${email}`, {
+  fetch(`https://take-your-smile.onrender.com/user/${email}`, {
     method: "GET",
      headers: {
       'content-type': 'application/json',

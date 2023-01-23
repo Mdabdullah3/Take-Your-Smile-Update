@@ -18,7 +18,7 @@ if (image) {
 }
 
 if (email) {
-    fetch(`https://take-your-smile-server-side.vercel.app/user/${email}`,{
+    fetch(`https://take-your-smile.onrender.com/user/${email}`,{
         method: "PUT",
         headers: {
             'content-type': 'application/json'

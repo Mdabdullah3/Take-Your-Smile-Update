@@ -8,7 +8,7 @@ import Card from './Card';
 const Pandding = () => {
     const [pandding, setPandding] :any = useState([]);
     const [bookings , setBookings]:any = useState([]);
-    const url = `https://take-your-smile-server-side.vercel.app/allbookings`;
+    const url = `https://take-your-smile.onrender.com/allbookings`;
 
     useEffect(() => {
         fetch(url)

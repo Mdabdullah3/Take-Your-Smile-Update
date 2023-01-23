@@ -31,7 +31,7 @@ const RetirementDe = () => {
   const [decoration, setDecoration] = useState<decration[]>([]);
 
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/retirement";
+    const url = "https://take-your-smile.onrender.com/retirement";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

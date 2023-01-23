@@ -5,7 +5,7 @@ const useAdmin = user => {
     useEffect(() => {
         const email = user?.email;
         if (email) {
-            fetch(`https://take-your-smile-server-side.vercel.app/admin/${email}`,{
+            fetch(`https://take-your-smile.onrender.com/admin/${email}`,{
                 methodd: "GET",
                 headers: {
                     'content-type': 'application/json',

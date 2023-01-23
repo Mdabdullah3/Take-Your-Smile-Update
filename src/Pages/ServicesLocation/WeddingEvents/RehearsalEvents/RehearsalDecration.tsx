@@ -19,7 +19,7 @@ const RehearsalDecration = () => {
   const { pack } = useParams();
   const [packag]: any = UsePackage(pack);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/rehearshal";
+    const url = "https://take-your-smile.onrender.com/rehearshal";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

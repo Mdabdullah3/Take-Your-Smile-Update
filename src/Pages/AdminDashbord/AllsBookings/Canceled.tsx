@@ -6,7 +6,7 @@ import Card from './Card';
 
 const Canceled = () => {
     const [bookings , setBookings]:any = useState([]);
-    const url = `https://take-your-smile-server-side.vercel.app/allbookings`;
+    const url = `https://take-your-smile.onrender.com/allbookings`;
 
     useEffect(() => {
         fetch(url)

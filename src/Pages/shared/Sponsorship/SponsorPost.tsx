@@ -15,7 +15,7 @@ const SponsorPost = () => {
         const image = data.url;
         const description = data.description;
         const sponsor = {title, image, description};
-        fetch(`https://take-your-smile-server-side.vercel.app/sponsor`,{
+        fetch(`https://take-your-smile.onrender.com/sponsor`,{
             method: "POST",
             headers: {
                 'content-type': 'application/json'

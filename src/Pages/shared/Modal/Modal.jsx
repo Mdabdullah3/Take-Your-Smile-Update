@@ -17,7 +17,7 @@ const  Modal = () => {
     setModal(true)
   },[])
   const { isLoading, isError, data:sponsors, error } = useQuery(['sponsor'],  () => 
-  fetch('https://take-your-smile-server-side.vercel.app/sponsor',{
+  fetch('https://take-your-smile.onrender.com/sponsor',{
       method: "GET",
       headers: {
           'content-type': "applicataion/json"

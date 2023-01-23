@@ -30,7 +30,7 @@ const CheckoutForm = () => {
   useEffect(() => {
     if (amount) {
       fetch(
-        "https://take-your-smile-server-side.vercel.app/create-payment-intent",
+        "https://take-your-smile.onrender.com/create-payment-intent",
         {
           method: "POST",
           headers: {

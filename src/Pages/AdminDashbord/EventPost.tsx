@@ -31,7 +31,7 @@ const EventPost = () => {
                         decImg: img,
                     };
                     // send to your database
-                    fetch("https://take-your-smile-server-side.vercel.app/gallerys", {
+                    fetch("https://take-your-smile.onrender.com/gallerys", {
                         method: "POST",
                         headers: {
                             "content-type": "application/json",

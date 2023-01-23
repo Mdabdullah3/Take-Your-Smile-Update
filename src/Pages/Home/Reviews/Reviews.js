@@ -10,7 +10,7 @@ import Loading from "../../shared/Loading/Loading";
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/reviews";
+    const url = "https://take-your-smile.onrender.com/reviews";
 
     fetch(url)
       .then((res) => res.json())

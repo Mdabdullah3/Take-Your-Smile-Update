@@ -19,7 +19,7 @@ import "swiper/css/navigation";
 const Corporate = () => {
   const [corporate, setCorporat] = useState([]);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/corporate";
+    const url = "https://take-your-smile.onrender.com/corporate";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setCorporat(data));

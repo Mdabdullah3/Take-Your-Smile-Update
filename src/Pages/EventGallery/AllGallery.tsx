@@ -8,7 +8,7 @@ import { useQuery } from '@tanstack/react-query';
 const AllGallery = () => {
   const [gallery, setGallery] = useState([]);
   const [events, setEvents] = useState([]);
-    const url = `https://take-your-smile-server-side.vercel.app/gallerys`;
+    const url = `https://take-your-smile.onrender.com/gallerys`;
   const { data: gallerys, isLoading , refetch } = useQuery(['allparts'], () => fetch(url, {
     method: 'GET',
     headers: {

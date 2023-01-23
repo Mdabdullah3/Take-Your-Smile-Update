@@ -7,7 +7,7 @@ const Profile = () => {
   const [users, setUser] = useState([]);
   useEffect(() => {
     const email = user?.email;
-    fetch(`https://take-your-smile-server-side.vercel.app/user/${email}`, {
+    fetch(`https://take-your-smile.onrender.com/user/${email}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

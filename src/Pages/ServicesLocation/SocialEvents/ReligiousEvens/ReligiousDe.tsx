@@ -28,7 +28,7 @@ const ReligiousDe = () => {
   const [packag]: any = UsePackage(pack);
   console.log(packag);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/religious";
+    const url = "https://take-your-smile.onrender.com/religious";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

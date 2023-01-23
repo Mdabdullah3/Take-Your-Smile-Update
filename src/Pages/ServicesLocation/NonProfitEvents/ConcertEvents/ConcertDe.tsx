@@ -19,7 +19,7 @@ const ConcertDe = () => {
   const [packag]: any = UsePackage(pack);
   const navigate = useNavigate();
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/concert";
+    const url = "https://take-your-smile.onrender.com/concert";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

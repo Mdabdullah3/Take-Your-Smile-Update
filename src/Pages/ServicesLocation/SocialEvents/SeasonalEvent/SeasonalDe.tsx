@@ -20,7 +20,7 @@ const SeasonalDe = () => {
   const [packag]: any = UsePackage(pack);
   console.log(packag);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/seasonal";
+    const url = "https://take-your-smile.onrender.com/seasonal";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

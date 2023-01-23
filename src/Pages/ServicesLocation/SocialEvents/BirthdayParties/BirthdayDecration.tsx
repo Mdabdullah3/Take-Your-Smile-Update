@@ -20,7 +20,7 @@ const BirthdayDecration = () => {
   const [packag]: any = UsePackage(pack);
   console.log(packag);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/birthday";
+    const url = "https://take-your-smile.onrender.com/birthday";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

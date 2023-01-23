@@ -9,7 +9,7 @@ const Blogs = () => {
 
   let {id} = useParams();  
   const { isLoading, isError, data:articles, error, refetch } = useQuery(['articles'],  () => 
-  fetch(`https://take-your-smile-server-side.vercel.app/articles/${id}`,{
+  fetch(`https://take-your-smile.onrender.com/articles/${id}`,{
       method: "GET",
       headers: {
           'content-type': "applicataion/json"

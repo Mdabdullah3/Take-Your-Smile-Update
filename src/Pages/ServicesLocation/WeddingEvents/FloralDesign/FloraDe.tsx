@@ -20,7 +20,7 @@ const FloraDe = () => {
   const { id } = useParams();
   const [address]: any = UseLocation(id);
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/floralDesign";
+    const url = "https://take-your-smile.onrender.com/floralDesign";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDecoration(data));

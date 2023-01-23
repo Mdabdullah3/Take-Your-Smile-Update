@@ -14,7 +14,7 @@ if(role.length > 1){
 }
 
 if (email) {
-    fetch(`https://take-your-smile-server-side.vercel.app/admin/${email}`,{
+    fetch(`https://take-your-smile.onrender.com/admin/${email}`,{
         method: "PUT",
         headers: {
             'content-type': 'application/json'

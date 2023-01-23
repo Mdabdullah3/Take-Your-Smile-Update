@@ -3,7 +3,7 @@ const UseNonProfitEvents = () => {
   const [nonPropit, setnonPropit] = useState([]);
 
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/nonprofit";
+    const url = "https://take-your-smile.onrender.com/nonprofit";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setnonPropit(data));

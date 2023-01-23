@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const UseConcert = (con: any) => {
   const [concert, setConcert] = useState([]);
   useEffect(() => {
-    const url = `https://take-your-smile-server-side.vercel.app/concert/${con}`;
+    const url = `https://take-your-smile.onrender.com/concert/${con}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setConcert(data));

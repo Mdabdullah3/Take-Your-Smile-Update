@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 const Alluser = () => {
   const [user, setUser] = useState([]);
   useEffect(() => {
-    fetch("https://take-your-smile-server-side.vercel.app/usersdata")
+    fetch("https://take-your-smile.onrender.com/usersdata")
       .then((res) => res.json())
       .then((data) => setUser(data));
   }, [user]);
@@ -13,7 +13,7 @@ const Alluser = () => {
   const handleDelete = (id: string) => {
     const proced = window.confirm("Are Your Sure Delete This User");
     if (proced) {
-      const url = `https://take-your-smile-server-side.vercel.app/usersData/${id}`;
+      const url = `https://take-your-smile.onrender.com/usersData/${id}`;
 
       fetch(url, {
         method: "DELETE",

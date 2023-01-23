@@ -15,7 +15,7 @@ const OurLiveEvent = () => {
   time.setSeconds(time.getSeconds() + 216000);
   const [liveEvent, setLiveEvent]: any = useState([]);
   useEffect(() => {
-    const url = `https://take-your-smile-server-side.vercel.app/orders`;
+    const url = `https://take-your-smile.onrender.com/orders`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setLiveEvent(data));

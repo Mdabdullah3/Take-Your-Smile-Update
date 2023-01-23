@@ -41,7 +41,7 @@ const Posts = () => {
     // console.log(user?.email)
 
 
-    const url = `https://take-your-smile-server-side.vercel.app/posts/${postId}`
+    const url = `https://take-your-smile.onrender.com/posts/${postId}`
     useEffect(() => {
         fetch(url)
             .then(res => res.json())
@@ -67,7 +67,7 @@ const Posts = () => {
     }
 
     useEffect(() => {
-        fetch('https://take-your-smile-server-side.vercel.app/posts')
+        fetch('https://take-your-smile.onrender.com/posts')
             .then(res => res.json())
             .then(data => {
                 const filter = data.filter(filteredData => filteredData.like === "liked")
@@ -138,7 +138,7 @@ const Posts = () => {
             const update = { totalLikes, email, liked }
             console.log(update);
 
-            const url = `https://take-your-smile-server-side.vercel.app/posts/${id}`
+            const url = `https://take-your-smile.onrender.com/posts/${id}`
             fetch(url, {
                 method: 'PUT',
                 headers: {
@@ -166,7 +166,7 @@ const Posts = () => {
             const update = { totalLikes, email, liked }
             console.log(update);
 
-            const url = `https://take-your-smile-server-side.vercel.app/posts/${id}`
+            const url = `https://take-your-smile.onrender.com/posts/${id}`
             fetch(url, {
                 method: 'PUT',
                 headers: {

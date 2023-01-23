@@ -33,7 +33,7 @@ const YourBookings = () => {
   const orderNumber = Math.round(Math.random() * 100000);
   useEffect(() => {
     const email = user?.email;
-    const url = `https://take-your-smile-server-side.vercel.app/myitems?email=${email}`;
+    const url = `https://take-your-smile.onrender.com/myitems?email=${email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => filterItems(data));
@@ -55,7 +55,7 @@ const YourBookings = () => {
 
   const cancleOrder = (id) => {
     fetch(
-      `https://take-your-smile-server-side.vercel.app/orders/cancel/${id}`,
+      `https://take-your-smile.onrender.com/orders/cancel/${id}`,
       {
         method: "PUT",
       }

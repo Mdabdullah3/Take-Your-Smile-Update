@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const UseFundarationde = (fund: any) => {
   const [fundrasing, setFundrasing] = useState([]);
   useEffect(() => {
-    const url = `https://take-your-smile-server-side.vercel.app/Fundraising/${fund}`;
+    const url = `https://take-your-smile.onrender.com/Fundraising/${fund}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setFundrasing(data));

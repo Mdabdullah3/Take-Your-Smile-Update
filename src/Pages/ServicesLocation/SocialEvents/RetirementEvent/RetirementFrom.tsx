@@ -56,7 +56,7 @@ const RetirementFrom = () => {
       status: status
     };
 
-    fetch("https://take-your-smile-server-side.vercel.app/orders", {
+    fetch("https://take-your-smile.onrender.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",

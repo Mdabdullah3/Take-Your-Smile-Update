@@ -4,7 +4,7 @@ const UseWedding = () => {
     const [wedding, setWedding] = useState([]);
 
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/wedding";
+    const url = "https://take-your-smile.onrender.com/wedding";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setWedding(data));

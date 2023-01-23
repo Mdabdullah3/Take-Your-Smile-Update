@@ -6,7 +6,7 @@ import NavBar from "../NavBar/NavBar";
 const Show = () => {
   const navigate = useNavigate();
     const { isLoading, isError, data:articles, error,refetch } = useQuery(['articles'],  () => 
-    fetch('https://take-your-smile-server-side.vercel.app/articles',{
+    fetch('https://take-your-smile.onrender.com/articles',{
         method: "GET",
         headers: {
             'content-type': "applicataion/json"

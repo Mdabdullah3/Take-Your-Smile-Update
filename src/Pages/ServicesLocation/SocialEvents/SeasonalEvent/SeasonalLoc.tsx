@@ -15,7 +15,7 @@ const SeasonalLoc = () => {
   const [packag]: any = UsePackage(pack);
   const [social] = UseSocialEvents();
   useEffect(() => {
-    const url = "https://take-your-smile-server-side.vercel.app/address";
+    const url = "https://take-your-smile.onrender.com/address";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setAddress(data));
