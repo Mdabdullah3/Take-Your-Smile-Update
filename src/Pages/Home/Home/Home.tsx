@@ -31,7 +31,6 @@ const Home = () => {
             <Reviews></Reviews>
             <RecentEvents></RecentEvents>
             <Contact />
-            <FAQ />
             {/* <Modal /> */}
 
         </motion.path>

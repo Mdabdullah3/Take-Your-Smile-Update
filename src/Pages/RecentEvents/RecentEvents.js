@@ -57,7 +57,7 @@ export default class RecentEvents extends Component {
       ],
     };
     return (
-      <div className="px-7 py-14 overflow-x-hidden sm:overflow-x-hidden">
+      <div className="px-7 mt-20 py-14 overflow-x-hidden sm:overflow-x-hidden">
         <h3
           data-aos="zoom-in"
           data-aos-duration="1400"
@@ -67,7 +67,7 @@ export default class RecentEvents extends Component {
               'font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
           }}
         >
-          <strong>
+          <strong className=" tracking-widest">
             <span className="text-secondary">Recent</span>{" "}
             <span className="text-primary">Events</span>
           </strong>
@@ -75,9 +75,7 @@ export default class RecentEvents extends Component {
         <Slider {...settings}>
           {this.state.books.map((book) => (
             <div
-              data-aos="flip-right"
-              data-aos-easing="gradient(0,0,1200)"
-              data-aos-duration="2200"
+
               key={book.id}
               className="px-3"
             >
@@ -86,69 +84,14 @@ export default class RecentEvents extends Component {
 
                 <div className="custom-display1 lg:h-80 h-20">
                   <p className="p-4     "> {book.description}</p>
-                  <div className=" text-center">
-                    <button className="btn ">Learn More</button>
+                  <div className=" text-center text-primary">
+                    <button className="btn">Learn More</button>
                   </div>
                 </div>
               </div>
             </div>
           ))}
 
-          {/* <div className='px-3'>
-                        <div className="banner2">
-                            <img className='lg:h-80 h-20 image2' src='https://i.ibb.co/TmndRpg/party.jpg' alt="" />
-
-                            <div className="custom-display2 lg:h-80 h-20"><p className="p-4     "> Take Your Smile has been helping to organize successful birthday parties since 2014 in New York and here you will get the services of a birthday planner and event coordination.</p>
-                                <div className=" text-center">
-                                    <button className="btn btn-primary ">Learn More</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='px-3'>
-                        <div className="banner3">
-                            <img className='lg:h-80 h-20 image3' src='https://i.ibb.co/ThFyjvC/party2.jpg' alt="" />
-
-                            <div className="custom-display3 lg:h-80 h-20"><p className="p-4     "> Take Your Smile has been helping to organize successful weeding events since 2014 in New York and here you will get the services of a wedding planner and event coordination.</p>
-                                <div className=" text-center">
-                                    <button className="btn btn-primary ">Learn More</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='px-3'>
-                        <div className="banner4">
-                            <img className='lg:h-80 h-20 image4' src='https://i.ibb.co/9bPpVDk/party3.jpg' alt="" />
-
-                            <div className="custom-display4 lg:h-80 h-20"><p className="p-4     "> Take Your Smile has been helping to organize successful weeding events since 2014 in New York and here you will get the services of a wedding planner and event coordination.</p>
-                                <div className=" text-center">
-                                    <button className="btn btn-primary ">Learn More</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='px-3'>
-                        <div className="banner5">
-                            <img className='lg:h-80 h-20 image5' src='https://i.ibb.co/Phpk1Rm/party4.jpg' alt="" />
-
-                            <div className="custom-display5 lg:h-80 h-20"><p className="p-4     "> Take Your Smile has been helping to organize successful weeding events since 2014 in New York and here you will get the services of a wedding planner and event coordination.</p>
-                                <div className=" text-center">
-                                    <button className="btn btn-primary ">Learn More</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='px-3'>
-                        <div className="banner6">
-                            <img className='lg:h-80 h-20 image6' src='https://i.ibb.co/JCN6L0g/party5.jpg' alt="" />
-
-                            <div className="custom-display6 lg:h-80 h-20"><p className="p-4 "> Take Your Smile has been helping to organize successful weeding events since 2014 in New York and here you will get the services of a wedding planner and event coordination.</p>
-                                <div className=" text-center">
-                                    <button className="btn btn-primary ">Learn More</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
         </Slider>
       </div>
     );
