@@ -56,7 +56,7 @@ const OurLiveEvent = () => {
                 <div className="w-6/12 mx-auto mb-28">
                   <div className="mx-auto w-10/12 mt-10">
                     <Fade top duration={7500}>
-                      <img className="w-80 md:w-[600px] relative mx-auto" src={item.decrImg2} alt="" />
+                      <img className="w-80 md:w-[600px] md:h-[300px] relative mx-auto" src={item.decrImg2} alt="" />
                     </Fade>
                     <Fade left duration={5500}>
                       <h1 className="md:absolute  md:top-32 left-1/3 bg-primary w-24  py-4 text-3xl px-4 font-bold text-white font-mono text-center rounded-lg"><FiBookmark className=" text-white ml-4" /> {item.date.slice(0, 6)}</h1>
