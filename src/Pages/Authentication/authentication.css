@@ -1,3 +1,9 @@
+.nav-bg {
+  background-image: linear-gradient(60deg, #16264ac1, #160730c6, #6d1851eb);
+}
+
+/* Accounts Styling  */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 #container {
@@ -55,23 +61,24 @@ form.sign-in-form {
 }
 
 .input-field {
-  width: 100%;
+  width: 70%;
   background-color: #fff;
   margin: 10px 0;
   border-radius: 55px;
   padding: 10px 20px;
   position: relative;
-  border: 2px solid #FB4051;
+  border: 2px solid #722ab5e4;
 }
-.select-box{
+.select-box {
   background-color: #fff;
   margin: 10px 0;
   border-radius: 55px;
   position: relative;
-  border: 2px solid #FB4051;
+  border: 2px solid #722ab5e4;
 }
 
-.input-field input, .select-box select {
+.input-field input,
+.select-box select {
   background: none;
   outline: none;
   border: none;
@@ -84,49 +91,11 @@ form.sign-in-form {
   font-weight: 500;
 }
 
-.social-text {
-  padding: 0.7rem 0;
-  font-size: 1rem;
-}
-
 .social-media {
   display: flex;
   justify-content: center;
 }
 
-.social-icon {
-  height: 46px;
-  width: 46px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0.45rem;
-  border-radius: 50%;
-  text-decoration: none;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-
-
-
-.btn {
-  width: 150px;
-  border: none;
-  outline: none;
-  height: 49px;
-  border-radius: 49px;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin: 10px 0;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.btn:hover {
-  background-color: #fff;
-  border: 1px solid #FB4051;
-  color: #FB4051;
-}
 .panels-container {
   position: absolute;
   height: 100%;
@@ -145,9 +114,9 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  /* background-image: linear-gradient(-45deg, #FB4051 0%, #FB4051 100%); */
+  background-image: linear-gradient(30deg, #722ab5e4, #16264ac1, #6d1851eb);
   transition: 1.8s ease-in-out;
-  border-radius: 50%;
+  border-radius: 40%;
   z-index: 6;
 }
 
