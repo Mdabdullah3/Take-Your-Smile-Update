@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper";
 const Sponsher = () => {
-  const Fade = require("react-reveal/Fade")
   const sponser = [
     {
       id: 1,
@@ -49,9 +48,7 @@ const Sponsher = () => {
 
   return (
     <div className='relative w-full'>
-      <Fade left duration={8500}>
-        <h1 className="md:text-[90px] text-4xl absolute -z-10 md:left-1/3 top-8 text-[#F7F7F7] text-center font-mono font-bold">Sponsorshif</h1>
-      </Fade>
+      <h1 className="md:text-[90px] text-4xl absolute -z-10 md:left-1/3 top-8 text-[#F7F7F7] text-center font-mono font-bold">Sponsorshif</h1>
       <div className='w-10/12 mx-auto font-mono mt-36'>
         <h1 className='text-xl text-secondary font-semibold text-center mb-2'>Featured Sponsors</h1>
         <h1 className='text-2xl mb-20 text-secondary text-center'>We Work With the Best Partners</h1>
@@ -80,25 +77,21 @@ const Sponsher = () => {
               sponser.map(item => (<SwiperSlide>
 
                 <div className='flex flex-col mx-auto pb-20 '>
-                  <Fade top duration={6000}>
-                    <div className='px-2 py-4 shadow-lg mr-6 border-t-4 border-[#0045F8] rounded-md'>
-                      <img className='w-32 h-28 mx-auto' src={item.img} alt="" />
-                    </div>
-                  </Fade>
-                  <Fade bottom duration={6000}>
-                    <div className='px-2 py-4 shadow-lg mr-6 mt-10 border-t-4 border-[#0045F8] rounded-md'>
-                      <img className='w-32 h-28 mx-auto' src={item.img1} alt="" />
-                    </div>
-                  </Fade>
+                  <div className='px-2 py-4 shadow-lg mr-6 border-t-4 border-[#0045F8] rounded-md'>
+                    <img className='w-32 h-28 mx-auto' src={item.img} alt="" />
+                  </div>
+                  <div className='px-2 py-4 shadow-lg mr-6 mt-10 border-t-4 border-[#0045F8] rounded-md'>
+                    <img className='w-32 h-28 mx-auto' src={item.img1} alt="" />
+                  </div>
                 </div>
               </SwiperSlide>))
             }
-      </div>
-      <div className='md:w-56 w-5/12 mx-auto'>
-        <button className='w-full mx-auto bg-primary py-4 text-white px-3 font-mono text-xl rounded-lg'> Become a Sponser</button>
-      </div>
+          </div>
+          <div className='md:w-56 w-5/12 mx-auto'>
+            <button className='w-full mx-auto bg-primary py-4 text-white px-3 font-mono text-xl rounded-lg'> Become a Sponser</button>
+          </div>
 
-    </Swiper>
+        </Swiper>
       </div >
 
     </div >

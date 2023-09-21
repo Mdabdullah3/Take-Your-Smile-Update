@@ -18,22 +18,22 @@ const Home = () => {
     const { scrollYProgress } = useViewportScroll()
     return (
         <motion.path className=""
-        d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
-        style={{ pathLength: scrollYProgress }}
+            d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
+            style={{ pathLength: scrollYProgress }}
         >
             <PageTitle title="Take Your Smile" />
-            <Banner/>
+            <Banner />
             <Services />
             <OurLiveEvent />
             <Sponsorship />
             <Gallery></Gallery>
             <Reviews></Reviews>
-            <Summery></Summery>
             <RecentEvents></RecentEvents>
             <FAQ />
             {/* <Modal /> */}
 
-     </motion.path>
-)};
+        </motion.path>
+    )
+};
 
 export default Home;

@@ -53,7 +53,7 @@ const Reviews = () => {
         className="mySwiper w-8/12"
       >
         <>
-          {reviews.map((item) => (
+          {reviews.slice(0, 4).map((item) => (
             <SwiperSlide key={item._id}>
               <ReviewCard item={item}></ReviewCard>
             </SwiperSlide>
