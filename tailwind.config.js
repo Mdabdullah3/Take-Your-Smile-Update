@@ -13,19 +13,7 @@ module.exports = {
           success: "#ffffff",
           warning: "#DF7E07",
           error: "#FA5C5C",
-          violet:"#9999FF"
-        },
-        dark: {
-          primary: "#C74B50",
-          'primary-content': "#2A303C",
-          secondary: "#ECF0F3",
-          "base-100": "#222831",
-          neutral: "#ECF0F3",
-          info: "#A6ADBA",
-          success: "#ffffff",
-          warning: "#DF7E07",
-          error: "#FA5C5C",
-          violet:"#9999FF"
+          violet: "#9999FF"
         }
       },
     ],

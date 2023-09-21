@@ -116,7 +116,6 @@ import EventPost from "./Pages/AdminDashbord/EventPost";
 import AllsBookings from "./Pages/AdminDashbord/AllsBookings/AllsBookings";
 import PaymentDoneBook from "./Pages/AdminDashbord/AllsBookings/PaymentDoneBook";
 import AllBookings from "./Pages/AdminDashbord/AllBookings";
-import DarkMode from "./Pages/shared/DarkMode/DarkMode";
 import Show from "./Pages/shared/BlogEditor/Show";
 import Article from "./Pages/shared/BlogEditor/Article";
 import AdminLogin from "./Pages/Authentication/Admin/AdminLogin";
@@ -156,14 +155,14 @@ function App() {
     AOS.init();
   }, []);
   return (
-    <div className="relative">
+    <div className="relative bg-white">
 
       <Routes>
         <Route path='/' element={<Events />}></Route>
         <Route path="user" element={<Alluser></Alluser>}></Route>
         <Route path="/admin" element={<RequireAdmin>
-              <Dashbord></Dashbord>
-            </RequireAdmin>}>
+          <Dashbord></Dashbord>
+        </RequireAdmin>}>
           <Route index element={<Admin></Admin>}></Route>
           <Route path="eventpost" element={<RequireAdmin>
             <EventPost></EventPost>
@@ -183,50 +182,50 @@ function App() {
           }></Route>
           <Route path="teams" element={<RequireAdmin>
             <Team></Team>
-            </RequireAdmin>
-            }>
+          </RequireAdmin>
+          }>
             <Route path="teamA" element={<RequireAdmin>
               <TeamA />
-              </RequireAdmin>
-              }></Route>
+            </RequireAdmin>
+            }></Route>
             <Route path="teamB" element={<RequireAdmin>
               <TeamB />
-              </RequireAdmin>
-              }></Route>
+            </RequireAdmin>
+            }></Route>
             <Route path="teamC" element={<RequireAdmin>
               <TeamC />
-              </RequireAdmin>
-              }></Route>
+            </RequireAdmin>
+            }></Route>
             <Route path="teamD" element={<RequireAdmin>
               <TeamD />
-              </RequireAdmin>
-              }></Route>
+            </RequireAdmin>
+            }></Route>
           </Route>
           <Route path="allbookings" element={<RequireAdmin>
             <AllBookings></AllBookings>
-            </RequireAdmin>
-            }>
+          </RequireAdmin>
+          }>
             <Route path="bookings" element={<RequireAdmin>
               <AllsBookings></AllsBookings>
-              </RequireAdmin>
-              }></Route>
+            </RequireAdmin>
+            }></Route>
             <Route path="payment" element={<RequireAdmin>
               <PaymentDoneBook />
-              </RequireAdmin>
-              }></Route>
+            </RequireAdmin>
+            }></Route>
             <Route path="pandding" element={<RequireAdmin>
               <Pandding />
-              </RequireAdmin>
-              }></Route>
+            </RequireAdmin>
+            }></Route>
             <Route path="complete" element={<RequireAdmin>
               <Complete />
-              </RequireAdmin>
-              }></Route>
+            </RequireAdmin>
+            }></Route>
             <Route path="canceled" element={<RequireAdmin>
               <Canceled />
-              </RequireAdmin>
-              }>
-              </Route>
+            </RequireAdmin>
+            }>
+            </Route>
           </Route>
         </Route>
 
@@ -299,125 +298,125 @@ function App() {
 
         {/* Events Services Package Here  */}
         <Route path="/birthday/:id" element={
-        <RequireAuth>
-          
-          <BirthdayParties />
-        </RequireAuth>
-      }></Route>
+          <RequireAuth>
+
+            <BirthdayParties />
+          </RequireAuth>
+        }></Route>
         <Route path="/anniversary/:id" element={
-        <RequireAuth>
-          
-          <Anniversary />
-        </RequireAuth>
+          <RequireAuth>
+
+            <Anniversary />
+          </RequireAuth>
         }></Route>
         <Route path="/engagement/:id" element={
-        <RequireAuth>
-          
-          <Engagement />
-        </RequireAuth>
+          <RequireAuth>
+
+            <Engagement />
+          </RequireAuth>
         }></Route>
         <Route path="/rehearsal/:id" element={
-        <RequireAuth>
-          
-          <Rehearsal />
-        </RequireAuth>
-        
+          <RequireAuth>
+
+            <Rehearsal />
+          </RequireAuth>
+
         }></Route>
         <Route path="/wedding/:id" element={
-        <RequireAuth>
-          
-          <WeddingEven />
-        </RequireAuth>
+          <RequireAuth>
+
+            <WeddingEven />
+          </RequireAuth>
         }></Route>
         <Route path="/floral/:id" element={
-        <RequireAuth>
-          
-          <FloralDesign />
-        </RequireAuth>
+          <RequireAuth>
+
+            <FloralDesign />
+          </RequireAuth>
         }></Route>
         <Route path="/seasonal/:id" element={
-        <RequireAuth>
-          
-          <SeasonalEvents />
-        </RequireAuth>
+          <RequireAuth>
+
+            <SeasonalEvents />
+          </RequireAuth>
         }></Route>
         <Route path="/retirement/:id" element={
-        <RequireAuth>
-          
-          <Retirement />
-        </RequireAuth>
+          <RequireAuth>
+
+            <Retirement />
+          </RequireAuth>
         }></Route>
         <Route path="/religious/:id" element={
-        <RequireAuth>
-          
-          <Religious />
-        </RequireAuth>
+          <RequireAuth>
+
+            <Religious />
+          </RequireAuth>
         }></Route>
         <Route path="/holyday/:id" element={
-        <RequireAuth>
-          
-          <Holyday />
-        </RequireAuth>
+          <RequireAuth>
+
+            <Holyday />
+          </RequireAuth>
         }></Route>
         <Route path="/fashionCar/:id" element={
-        <RequireAuth>
-          
-          <FashionCarnival />
-        </RequireAuth>
+          <RequireAuth>
+
+            <FashionCarnival />
+          </RequireAuth>
         }></Route>
         <Route path="/newYear/:id" element={
-        <RequireAuth>
-          
-          <NewYearEvents />
-        </RequireAuth>
+          <RequireAuth>
+
+            <NewYearEvents />
+          </RequireAuth>
         }></Route>
         <Route path="/educational/:id" element={
-        <RequireAuth>
-          
-          <Educational />
-        </RequireAuth>
+          <RequireAuth>
+
+            <Educational />
+          </RequireAuth>
         }></Route>
         <Route path="/salesEvent/:id" element={
-        <RequireAuth>
-          
-          <SalesEvents />
-        </RequireAuth>
+          <RequireAuth>
+
+            <SalesEvents />
+          </RequireAuth>
         }></Route>
         <Route path="/product/:id" element={
-        <RequireAuth>
-          
-          <Product />
-        </RequireAuth>
+          <RequireAuth>
+
+            <Product />
+          </RequireAuth>
         }></Route>
         <Route path="/concert/:id" element={
-        <RequireAuth>
-          
-          <ConcertEvents />
-        </RequireAuth>
+          <RequireAuth>
+
+            <ConcertEvents />
+          </RequireAuth>
         }></Route>
         <Route path="/fairs/:id" element={
-        <RequireAuth>
-          
-          <FairsExpos />
-        </RequireAuth>
+          <RequireAuth>
+
+            <FairsExpos />
+          </RequireAuth>
         }></Route>
         <Route path="/homeEvent/:id" element={
-        <RequireAuth>
-          
-          <WelcomeHome />
-        </RequireAuth>
+          <RequireAuth>
+
+            <WelcomeHome />
+          </RequireAuth>
         }></Route>
         <Route path="/paintJam/:id" element={
-        <RequireAuth>
-          
-          <PaintJam />
-        </RequireAuth>
+          <RequireAuth>
+
+            <PaintJam />
+          </RequireAuth>
         }></Route>
         <Route path="/Fundrasing/:id" element={
-        <RequireAuth>
-          
-          <FundrasingEvent />
-        </RequireAuth>
+          <RequireAuth>
+
+            <FundrasingEvent />
+          </RequireAuth>
         }></Route>
         {/* Set Location  */}
         {/* Wedding Events Part  */}
@@ -581,7 +580,6 @@ function App() {
       <ToastContainer />
       <Messenger />
       <ClickToTop></ClickToTop>
-      <DarkMode />
     </div>
   );
   // 

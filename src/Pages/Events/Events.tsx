@@ -2,7 +2,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-import {useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import PageTitle from '../shared/PageTitle/PageTitle';
 
 
@@ -13,14 +13,14 @@ import './Events.css'
 
 const Events = () => {
     const naviagate = useNavigate();
-    const handleload =(e: any) => {
+    const handleload = (e: any) => {
         e.preventDefault();
         naviagate('/home')
     }
     return (
-        <div className='mb-8'>
-                  <PageTitle title="Events" />
-            <div className='text-center' style={{ backgroundColor: '#c62127' }}>
+        <div className=''>
+            <PageTitle title="Events" />
+            <div className='text-center bg-gradient-to-t from-[#FB4051] to-[#c54485]' >
                 <h3 className='text-4xl  pt-6' style={{ fontFamily: 'Josefin Sans', color: 'white', wordSpacing: '6px' }}><strong>What type of event do you want to plan?</strong>
                 </h3>
                 <h3 className='text-4xl text-neutral  pb-8 pt-4' style={{ fontFamily: 'Josefin Sans', wordSpacing: '9px' }}><FontAwesomeIcon icon={faAngleDown}></FontAwesomeIcon></h3>
@@ -56,9 +56,9 @@ const Events = () => {
                 </div>
 
             </div>
-            <div style={{ backgroundColor: '#2d2d2d' }}>
+            <div style={{ backgroundColor: '#020812' }}>
                 <h2 style={{ paddingTop: '57px', paddingBottom: '57px' }} className=' text-center'>
-                    <button className="change " onClick={ handleload}>ENTER SITE</button>
+                    <button className="change " onClick={handleload}>ENTER SITE</button>
                 </h2>
             </div>
 
