@@ -209,9 +209,6 @@ const Weedings = () => {
       <div className="bg-primary" style={{ height: "10px" }}></div>
       <div className="py-16" style={{ backgroundColor: "#333333" }}>
         <h1
-          data-aos="fade-down"
-          data-aos-easing="gradient"
-          data-aos-duration="2100"
           className="text-neutral text-2xl pt-10 text-center pb-12"
         >
           <strong>
@@ -224,9 +221,7 @@ const Weedings = () => {
             <div className="w-full text-neutral">
               <form action="">
                 <div
-                  data-aos="fade-down-right"
-                  data-aos-easing="gradient"
-                  data-aos-duration="1600"
+
                   className="lg:flex"
                 >
                   <input
@@ -245,9 +240,7 @@ const Weedings = () => {
                   />
                 </div>
                 <div
-                  data-aos="fade-down-right"
-                  data-aos-easing="gradient"
-                  data-aos-duration="1400"
+
                   className="lg:flex "
                 >
                   <input
@@ -266,9 +259,7 @@ const Weedings = () => {
                   />
                 </div>
                 <div
-                  data-aos="fade-down-right"
-                  data-aos-easing="gradient"
-                  data-aos-duration="1200"
+
                   className="w-full "
                 >
                   <input
@@ -280,9 +271,7 @@ const Weedings = () => {
                   />
                 </div>
                 <div
-                  data-aos="fade-down-right"
-                  data-aos-easing="gradient"
-                  data-aos-duration="1000"
+
                   className="w-full "
                 >
                   <textarea
@@ -293,9 +282,7 @@ const Weedings = () => {
                   ></textarea>
                 </div>
                 <button
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom"
-                  data-aos-duration="1200"
+
                   typeof="submit"
                   className="send-button mx-3"
                 >
@@ -306,18 +293,14 @@ const Weedings = () => {
           </div>
           <div className="pl-4">
             <h1
-              data-aos="fade-down-left"
-              data-aos-easing="gradient"
-              data-aos-duration="2000"
+
               className="text-3xl text-neutral mb-7"
             >
               ADDITIONAL EVENTS WE PLAN INCLUDE:
             </h1>
             <div className="text-xl text-neutral">
               <p
-                data-aos="fade-down-left"
-                data-aos-easing="gradient"
-                data-aos-duration="1800"
+
                 className="pb-3"
               >
                 <FontAwesomeIcon
@@ -327,9 +310,7 @@ const Weedings = () => {
                 Luncheons
               </p>
               <p
-                data-aos="fade-down-left"
-                data-aos-easing="gradient"
-                data-aos-duration="1600"
+
                 className="pb-3"
               >
                 <FontAwesomeIcon
@@ -339,9 +320,7 @@ const Weedings = () => {
                 Galas
               </p>
               <p
-                data-aos="fade-down-left"
-                data-aos-easing="gradient"
-                data-aos-duration="1400"
+
                 className="pb-3"
               >
                 <FontAwesomeIcon
@@ -351,9 +330,7 @@ const Weedings = () => {
                 Fairs / Expos
               </p>
               <p
-                data-aos="fade-down-left"
-                data-aos-easing="gradient"
-                data-aos-duration="1200"
+
                 className="pb-3"
               >
                 <FontAwesomeIcon
@@ -363,9 +340,7 @@ const Weedings = () => {
                 Auctions
               </p>
               <p
-                data-aos="fade-down-left"
-                data-aos-easing="gradient"
-                data-aos-duration="1000"
+
                 className="pb-3"
               >
                 <FontAwesomeIcon
@@ -376,9 +351,7 @@ const Weedings = () => {
               </p>
             </div>
             <p
-              data-aos="fade-down-left"
-              data-aos-easing="gradient"
-              data-aos-duration="800"
+
               className="text-neutral text-xl mt-7"
             >
               Can’t find the answers you need? Get in touch!

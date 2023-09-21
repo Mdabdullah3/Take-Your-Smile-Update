@@ -13,6 +13,7 @@ import Modal from '../../shared/Modal/Modal';
 import RecentEvents from '../../RecentEvents/RecentEvents';
 import OurLiveEvent from '../../LiveEvent/OurLiveEvent ';
 import { motion, useViewportScroll } from "framer-motion"
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     const { scrollYProgress } = useViewportScroll()
@@ -29,6 +30,7 @@ const Home = () => {
             <Gallery></Gallery>
             <Reviews></Reviews>
             <RecentEvents></RecentEvents>
+            <Contact />
             <FAQ />
             {/* <Modal /> */}
 

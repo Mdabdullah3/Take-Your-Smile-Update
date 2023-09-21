@@ -65,13 +65,13 @@ const Services = () => {
                     <h2 className='text-2xl font-bold capitalize text-primary md:text-2xl lg:text-4xl my-5 font-mono'>Our Services</h2>
                 </Fade>
                 <Fade left duration={8500}>
-                <h1 className="md:text-[110px] text-5xl absolute left-1/3  top-0 -z-10 text-[#F7F7F7] text-center font-mono font-bold">Services</h1>
-            </Fade>
+                    <h1 className="md:text-[110px] text-5xl absolute left-1/3  top-0 -z-10 text-[#F7F7F7] text-center font-mono font-bold">Services</h1>
+                </Fade>
                 <Fade right duration={3000}>
                     <h4 className='font-mono text-base font-semibold md:text-xl text-secondary capitalize'>Planning an event but no idea where to start? Take Heart!</h4>
                 </Fade>
                 <Fade left duration={3500}>
-                    <p className='text-base	 md:text-lg text-secondary w-full md:w-4/5 mx-auto my-2 md:my-4 font-mono'>We have you covered. Take Heart Events partners with local vendors to create fun, unique and innovative events tailored just for you or your organization. We have a variety of event planning experience; including weddings, social, corporate and non-profit events.</p>
+                    <p className='text-base	 md:text-md text-secondary w-full md:w-7/12 mx-auto my-2 md:my-4 font-mono'>We have you covered. Take Heart Events partners with local vendors to create fun, unique and innovative events tailored just for you or your organization. We have a variety of event planning experience; including weddings, social, corporate and non-profit events.</p>
                 </Fade>
             </div>
             <div className='grid gap-5 grid-cols-1 container mx-auto md:grid-cols-2 lg:grid-cols-4 px-2'>
