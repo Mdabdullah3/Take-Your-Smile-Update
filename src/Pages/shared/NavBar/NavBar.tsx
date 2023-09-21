@@ -19,7 +19,7 @@ const NavBar = () => {
         className={`${bg ? 'bg-primary h-20' : 'h-24'
           } flex items-center fixed top-0 w-full px-5 text-white z-10 transition-all duration-300 `}
       >
-        <div className='container mx-auto h-full flex items-center justify-between w-10/12'>
+        <div className='container mx-auto h-full flex items-center justify-between w-11/12'>
 
           <div className='hidden lg:block'>
             <DesktopNav />
