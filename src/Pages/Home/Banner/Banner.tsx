@@ -59,7 +59,7 @@ const Banner = () => {
 
         {
           banner.map(item => (<SwiperSlide key={item.id}>
-            <div className='relative border-b-8 border-primary'>
+            <div className='relative border-b-8 border-primary/70'>
               <img src={item.img} alt="" className='w-full h-screen' />
               <div className="banner"> </div>
               <div className=" absolute top-2/4 left-40 h-24  flex justify-center items-center">
@@ -71,8 +71,8 @@ const Banner = () => {
                     <br />
                     <h1 className='text-2xl md:w-10/12 w-full leading-loose font-mono font-medium text-white'>{item.dis}</h1>
                     <div className='mt-4'>
-                      <button className='exploreBtn mr-10 mb-3 font-mono uppercase'>Loren More</button>
-                      <button className='donateBtn font-mono uppercase'><Link to={item.url}>Get Planning</Link></button>
+                      <Link to={item.url}> <button className='exploreBtn mr-10 mb-3 font-mono uppercase'>Loren More</button> </Link>
+                      <Link to={item.url}> <button className='donateBtn font-mono uppercase'>Get Planning</button></Link>
                     </div>
                   </div>
                 </Fade>
