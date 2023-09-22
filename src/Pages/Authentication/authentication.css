@@ -1,5 +1,5 @@
 .nav-bg {
-  background-image: linear-gradient(60deg, #16264ac1, #160730c6, #6d1851eb);
+  background-image: linear-gradient(60deg, #fb4051, #c54485);
 }
 
 /* Accounts Styling  */
@@ -67,7 +67,7 @@ form.sign-in-form {
   border-radius: 55px;
   padding: 10px 20px;
   position: relative;
-  border: 2px solid #722ab5e4;
+  border: 2px solid #fb4051;
 }
 .select-box {
   background-color: #fff;
@@ -114,7 +114,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(30deg, #722ab5e4, #16264ac1, #6d1851eb);
+  background-image: linear-gradient(30deg, #fb4051, #c54485);
   transition: 1.8s ease-in-out;
   border-radius: 40%;
   z-index: 6;

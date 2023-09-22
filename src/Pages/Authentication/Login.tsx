@@ -129,10 +129,10 @@ const Login = () => {
                 })} />
               </div>
 
-              <p className='text-lg text-secondary'> Forgot Password? <button className="text-[#722ab5e4]" onClick={resetPassword}> Please Reset</button> </p>
+              <p className='text-lg text-secondary'> Forgot Password? <button className="text-primary" onClick={resetPassword}> Please Reset</button> </p>
 
-              <input type="submit" value="Login" className="BtnPurple hover:text-black mt-4" />
-              <div className="divider divide-purple-600 text-[#722ab5e4] w-7/12 mx-auto -mb-14">Or</div>
+              <input type="submit" value="Login" className="bg-primary px-6 my-3 text-white cursor-pointer transition duration-300 py-3 rounded-full" />
+              <div className="divider divide-purple-600 text-primary w-7/12 mx-auto -mb-14">Or</div>
             </form>
             <SocialLogin />
             <Registation />
