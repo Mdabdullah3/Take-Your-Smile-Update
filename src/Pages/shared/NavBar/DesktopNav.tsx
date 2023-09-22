@@ -5,9 +5,9 @@ const DesktopNav = () => {
         <li className=' text-white  cursor-pointer'><Link to='/home'
             className='transition-all duration-300 uppercase tracking-widest'> Home</Link></li>
         <li className='  transition-all duration-300 cursor-pointer uppercase '>
-            <div className="dropdown dropdown-hover ">
+            <div className="dropdown dropdown-hover">
                 <label id="0" className=" m-1 tracking-widest">Portfolio</label>
-                <ul id="0" className="dropdown-content rounded menu p-2 shadow drop-bg  w-52 text-white">
+                <ul id="0" className="dropdown-content rounded menu p-2 shadow drop-bg bg-white w-52 text-white">
                     <li className='tracking-widest text-secondary   cursor-pointer uppercase'><Link to='/gallery'
                         className='transition-all duration-300 hover:bg-primary text-secondary hover:text-white'>Event Gallery</Link></li>
                     <li className='tracking-widest text-secondary  cursor-pointer uppercase'><Link to='/blogslike'

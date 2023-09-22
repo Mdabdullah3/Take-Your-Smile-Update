@@ -5,7 +5,6 @@ import { Link, useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
 import useUser from "../../../hooks/User/UseUser";
 import useAdmin from "../../../hooks/Admin/useAdmin";
-
 const NavEnd = () => {
   const navigate = useNavigate();
   const [user] = useAuthState(auth);
