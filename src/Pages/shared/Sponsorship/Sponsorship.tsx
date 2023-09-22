@@ -50,7 +50,7 @@ const Sponsher = () => {
     <div className='relative w-full'>
       <h1 className="md:text-[90px] text-4xl absolute -z-10 md:left-1/3 top-8 text-[#F7F7F7] text-center font-mono font-bold">Sponsorshif</h1>
       <div className='w-10/12 mx-auto font-mono mt-36'>
-        <h1 className='text-xl text-secondary font-semibold text-center mb-2'>Featured Sponsors</h1>
+        <h1 className='text-xl text-primary font-semibold text-center mb-2'>Featured Sponsors</h1>
         <h1 className='text-2xl mb-20 text-secondary text-center'>We Work With the Best Partners</h1>
         <Swiper
           slidesPerView={1}

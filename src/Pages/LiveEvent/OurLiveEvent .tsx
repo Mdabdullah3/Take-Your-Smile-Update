@@ -10,7 +10,6 @@ import { AiTwotoneCalendar } from "react-icons/ai";
 import { BiTime } from "react-icons/bi";
 import Time from "./Time";
 const OurLiveEvent = () => {
-  const Fade = require("react-reveal/Fade")
   const time = new Date();
   time.setSeconds(time.getSeconds() + 216000);
   const [liveEvent, setLiveEvent]: any = useState([]);
@@ -25,7 +24,7 @@ const OurLiveEvent = () => {
   return (
     <div className="relative">
       <h1 className="md:text-[120px] text-4xl absolute -z-10 md:left-1/4 top-8 text-[#F7F7F7] text-center font-mono font-bold">latest Events</h1>
-      <h1 className="text-xl text-center font-mono text-secondary font-semibold">Upcoming Events</h1>
+      <h1 className="text-xl text-center font-mono text-primary font-semibold">Upcoming Events</h1>
       <h1 className="text-4xl my-2 text-center font-mono text-secondary font-semibold">Latest Awesome Events</h1>
       <Swiper
         slidesPerView={1}
