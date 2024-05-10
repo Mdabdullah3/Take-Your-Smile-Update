@@ -19,13 +19,13 @@ Responsive Design: Tailwind CSS and Framer Motion are used to create a responsiv
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/Mdabdullah3/Flight-Vibes
+   git clone https://github.com/Mdabdullah3/Take-Your-Smile-Update
 ```
 
 2. Navigate to the project directory
 
 ```bash
-cd Flight-Vibes
+cd Take-Your-Smile-Update
 ```
 
 3. Install dependencies:
@@ -43,17 +43,3 @@ cd Flight-Vibes
 ```
 
 2. Open your browser and go to http://localhost:3000 to view the app.
-
-## Technology Use 
-React.js
-Firebase
-Typescript
-javascript
-Node js
-ExpressJS
-Mongodb
-Tailwind Css
-Framer Motion
-React Animation
-Rest Api
-Payment Gateway
